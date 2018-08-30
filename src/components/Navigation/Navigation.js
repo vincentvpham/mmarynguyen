@@ -32,4 +32,8 @@ const Navigation = ({ title }) => {
   )
 }
 
+Navigation.propTypes = {
+  title: PropTypes.string.isRequired,
+}
+
 export default Navigation
