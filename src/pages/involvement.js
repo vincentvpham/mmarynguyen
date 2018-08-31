@@ -11,19 +11,19 @@ const InvolvementPage = () => (
       <div className='content'>
         <ul>
           <li>
-            RESEARCH ASSISTANT - <b>UMKC DEPARTMENT OF PSYCHOLOGY</b> // (2018-present)
+            RESEARCH ASSISTANT - <b>UMKC DEPARTMENT OF PSYCHOLOGY</b> {'//'} (2018-present)
           </li>
           <li>
-            EMERGENCY DEPARTMENT VOLUNTEER - <b>ST. LUKES HOSPITAL</b> // (2017-present)
+            EMERGENCY DEPARTMENT VOLUNTEER - <b>ST. LUKES HOSPITAL</b> {'//'} (2017-present)
           </li>
           <li>
-            ​SALES ASSOCIATE - <b>GAP</b> // (2016-2017)
+            ​SALES ASSOCIATE - <b>GAP</b> {'//'} (2016-2017)
           </li>
           <li>
-            YE AMBASSADOR - <b>YOUTH ENTREPRENEURS</b> // (2015-2016)
+            YE AMBASSADOR - <b>YOUTH ENTREPRENEURS</b> {'//'} (2015-2016)
           </li>
           <li>
-            GRAPHIC DESIGNER - <b>FREESTYLE SIGNS CO.</b> // (2013-2016)
+            GRAPHIC DESIGNER - <b>FREESTYLE SIGNS CO.</b> {'//'} (2013-2016)
           </li>
           <li>
             --
