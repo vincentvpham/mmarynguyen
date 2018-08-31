@@ -24,7 +24,7 @@ const Navigation = ({ title }) => {
         <Link to='/artwork'>
           Artwork
         </Link>
-        <a href='https://www.depop.com/mmarynguyen' target='_blank'>
+        <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">
           Shop
         </a>
         <Link to='/contact'>
