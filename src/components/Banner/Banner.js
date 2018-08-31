@@ -1,21 +1,27 @@
 import React from 'react'
-
-import bannerImage from './banner.png';
+import PropTypes from 'prop-types'
 
 import './Banner.scss'
 
-const Banner = () => {
+const Banner = ({ image, title }) => {
 
   return (
     <div className='banner'>
-      <img src={bannerImage} alt='banner' />
-      <div className='title-container'>
-        <div className='title'>
-          Student, Artist & Entrepreneur
+      <img src={image} alt='banner' />
+      {title &&
+        <div className='title-container'>
+          <div className='title'>
+            {title}
+          </div>
         </div>
-      </div>
+      }
     </div>
   )
+}
+
+Banner.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string,
 }
 
 export default Banner
