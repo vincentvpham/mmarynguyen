@@ -15,19 +15,19 @@ const Navigation = ({ title }) => {
         </div>
       </Link>
       <div className='menu'>
-        <Link to='/about'>
+        <Link to='/about' activeClassName='active'>
           About
         </Link>
-        <Link to='/involvement'>
+        <Link to='/involvement' activeClassName='active'>
           Involvement
         </Link>
-        <Link to='/artwork'>
+        <Link to='/artwork' activeClassName='active'>
           Artwork
         </Link>
         <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">
           Shop
         </a>
-        <Link to='/contact'>
+        <Link to='/contact' activeClassName='active'>
           Contact
         </Link>
       </div>
