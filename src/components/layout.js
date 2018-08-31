@@ -31,9 +31,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Navigation title={data.site.siteMetadata.title} />
-        <div>
-          {children}
-        </div>
+        {children}
       </div>
     )}
   />
