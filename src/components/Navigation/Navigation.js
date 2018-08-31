@@ -21,10 +21,13 @@ const Navigation = ({ title }) => {
         <Link to='/involvement'>
           Involvement
         </Link>
-        <Link to='/'>
+        <Link to='/artwork'>
           Artwork
         </Link>
-        <Link to='/contant'>
+        <a href='https://www.depop.com/mmarynguyen' target='_blank'>
+          Shop
+        </a>
+        <Link to='/contact'>
           Contact
         </Link>
       </div>
