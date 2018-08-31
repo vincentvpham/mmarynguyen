@@ -1,0 +1,28 @@
+.about {
+  flex: 1;
+  font-family: Courier New, Courier, monospace;
+
+  .banner {
+    height: 125px;
+
+    img {
+      object-position: bottom;
+    }
+  }
+
+  h1 {
+    font-family: Courier New, Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 48px 0;
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  .description {
+    margin: 16px;
+    padding: 0 16px;
+    line-height: 32px;
+    font-size: 14px;
+  }
+}
