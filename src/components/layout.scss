@@ -16,6 +16,18 @@ html, body {
   flex-direction: row;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  letter-spacing: 5px;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-family: Montserrat;
+  word-break: break-all;
+  word-wrap: break-word;
+  line-height: 75px;
+}
+
 .layout {
   display: flex;
   flex: 1;
