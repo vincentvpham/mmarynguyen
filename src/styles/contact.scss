@@ -1,0 +1,43 @@
+@import './colors.scss';
+
+.contact {
+  margin: 40px;
+  flex: 1;
+  justify-content: space-between;
+
+  .contact-methods {
+    max-width: 75%;
+
+    .platform, .value {
+      color: $white;
+      background-color: $black;
+      padding: 0 6px;
+    }
+
+    .platform {
+      font-family: Maven Pro;
+      font-weight: 900;
+    }
+
+    .value {
+      font-family: Courier New, Courier, monospace;
+      letter-spacing: 1px;
+    }
+
+    .method {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .method:not(:last-child) {
+        padding-bottom: 32px;
+    }
+  }
+
+  .currently {
+    font-family: Courier New, Courier, monospace;
+    font-size: 10px;
+    padding: 64px 0;
+  }
+}
