@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Montserrat:700']
+          families: ['Montserrat:700', 'Maven Pro:900']
         }
       }
     },
