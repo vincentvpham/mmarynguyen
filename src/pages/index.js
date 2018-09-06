@@ -7,12 +7,10 @@ import homeBannerImage from '../images/home.png'
 
 const IndexPage = () => (
   <Layout>
-    <div className='home'>
-      <Banner
-        image={homeBannerImage}
-        title='Student, Artist & Entrepreneur'
-      />
-    </div>
+    <Banner
+      image={homeBannerImage}
+      title='Student, Artist & Entrepreneur'
+    />
   </Layout>
 )
 
