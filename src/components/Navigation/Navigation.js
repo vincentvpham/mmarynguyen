@@ -24,12 +24,12 @@ const Navigation = ({ title }) => {
         <Link to='/artwork' activeClassName='active'>
           Artwork
         </Link>
-        <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">
-          Shop
-        </a>
         <Link to='/contact' activeClassName='active'>
           Contact
         </Link>
+        <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">
+          Shop
+        </a>
       </div>
     </div>
   )
