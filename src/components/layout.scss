@@ -1,7 +1,6 @@
 html, body {
   display: flex;
   flex: 1;
-  height: 100%;
 }
 
 #___gatsby {
@@ -31,7 +30,6 @@ h1 {
 .layout {
   display: flex;
   flex: 1;
-  height: 100%;
   flex-direction: row;
 
   .main {
