@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Gallery from 'react-photo-gallery'
-
 import ArtworkLayout from '../../layouts/Artwork/Artwork'
+
+import ArtworkPiece from '../../components/ArtworkPiece/ArtworkPiece'
 
 import mazeFace from '../../images/drawings/maze-face-2016.png'
 import melbourne from '../../images/drawings/melbourne-2018.png'
@@ -15,38 +15,46 @@ export const DRAWINGS = [
   {
     src: mazeFace,
     width: 3,
-    height: 3
+    height: 3,
+    title: 'MAZE FACE (2016) GEL PEN'
   },
   {
     src: melbourne,
     width: 3,
-    height: 4
+    height: 4,
+    title: 'MELBOURNE (2018) INK PEN'
   },
   {
     src: untitled1,
     width: 3,
-    height: 4
+    height: 4,
+    title: 'UNTITLED (2017) BRUSH PEN'
   },
   {
     src: untitled2,
     width: 3,
-    height: 3
+    height: 3,
+    title: 'UNTITLED (2018) GRAPHITE'
   },
   {
     src: untitled3,
     width: 3,
-    height: 3
+    height: 3,
+    title: 'UNTITLED (2016) INK PEN'
   },
   {
     src: untitled4,
     width: 4,
-    height: 3
+    height: 3,
+    title: 'UNTITLED (2018) INK PEN'
   },
 ]
 
 const Drawings = () => (
   <ArtworkLayout>
-    <Gallery photos={DRAWINGS} />
+    {
+      DRAWINGS.map(drawing => <ArtworkPiece image={drawing} />)
+    }
   </ArtworkLayout>
 )
 
