@@ -1,6 +1,9 @@
+@import '../styles/colors.scss';
+
 html, body {
   display: flex;
   flex: 1;
+  color: $black;
 }
 
 #___gatsby {

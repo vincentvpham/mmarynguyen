@@ -1,6 +1,35 @@
+@import '../../styles/colors.scss';
+
 .artwork {
+
+  h1 {
+    margin-bottom: 8px;
+  }
 
   h1:hover {
     cursor: pointer;
   }
+
+  .artwork-nav-container {
+    display: inline-block;
+
+    .artwork-nav {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      font-family: Courier New, Courier, monospace;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        padding: 8px 16px;
+
+        &.active {
+          color: $white;
+          background-color: $black;
+        }
+      }
+    }
+  }
+
 }
