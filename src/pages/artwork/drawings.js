@@ -19,16 +19,10 @@ export const DRAWINGS = [
     title: 'MAZE FACE (2016) GEL PEN'
   },
   {
-    src: melbourne,
+    src: untitled3,
     width: 3,
-    height: 4,
-    title: 'MELBOURNE (2018) INK PEN'
-  },
-  {
-    src: untitled1,
-    width: 3,
-    height: 4,
-    title: 'UNTITLED (2017) BRUSH PEN'
+    height: 3,
+    title: 'UNTITLED (2016) INK PEN'
   },
   {
     src: untitled2,
@@ -37,16 +31,22 @@ export const DRAWINGS = [
     title: 'UNTITLED (2018) GRAPHITE'
   },
   {
-    src: untitled3,
+    src: untitled1,
     width: 3,
-    height: 3,
-    title: 'UNTITLED (2016) INK PEN'
+    height: 4,
+    title: 'UNTITLED (2017) BRUSH PEN'
   },
   {
     src: untitled4,
     width: 4,
     height: 3,
     title: 'UNTITLED (2018) INK PEN'
+  },
+  {
+    src: melbourne,
+    width: 3,
+    height: 4,
+    title: 'MELBOURNE (2018) INK PEN'
   },
 ]
 
