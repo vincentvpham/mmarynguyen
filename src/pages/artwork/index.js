@@ -6,14 +6,14 @@ import Gallery from 'react-photo-gallery'
 import Artwork from '../../layouts/Artwork/Artwork'
 
 import { DRAWINGS } from './drawings'
-import { PHOTOGRAPHY } from './photography'
+import { PHOTOGRAPHS } from './photographs'
 import { PAINTINGS } from './paintings'
 
 import '../../styles/artwork.scss'
 
 const PHOTO_SET = [
   ...DRAWINGS,
-  ...PHOTOGRAPHY,
+  ...PHOTOGRAPHS,
   ...PAINTINGS,
 ]
 

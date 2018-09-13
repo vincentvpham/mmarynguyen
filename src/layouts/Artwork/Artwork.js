@@ -19,8 +19,8 @@ const Artwork = ({ children }) => {
             <Link to='/artwork/drawings' activeClassName='active'>
               Drawings
             </Link>
-            <Link to='/artwork/photography' activeClassName='active'>
-              Photography
+            <Link to='/artwork/photographs' activeClassName='active'>
+              Photographs
             </Link>
             <Link to='/artwork/paintings' activeClassName='active'>
               Paintings
