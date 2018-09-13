@@ -19,11 +19,11 @@ const Artwork = ({ children }) => {
             <Link to='/artwork/drawings' activeClassName='active'>
               Drawings
             </Link>
-            <Link to='/artwork/paintings' activeClassName='active'>
-              Paintings
-            </Link>
             <Link to='/artwork/photography' activeClassName='active'>
               Photography
+            </Link>
+            <Link to='/artwork/paintings' activeClassName='active'>
+              Paintings
             </Link>
           </div>
         </div>
