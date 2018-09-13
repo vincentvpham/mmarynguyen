@@ -30,6 +30,9 @@ const Artwork = ({ children }) => {
         <div className='gallery'>
           {children}
         </div>
+        <div className='copyright'>
+          All content copyright the artist. No commercial use without express written permission.
+        </div>
       </div>
     </Layout>
   )
