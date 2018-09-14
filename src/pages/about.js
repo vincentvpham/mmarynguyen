@@ -14,7 +14,7 @@ const AboutPage = () => (
       <Banner
         image={aboutBannerImage}
       />
-      <div className='content'>
+      <div>
         <h1>About Mary</h1>
         <div className='description'>
           Born and raised in Wichita, KS, Mary Nguyen is a student, artist and entrepreneur.

@@ -5,8 +5,9 @@
   flex-direction: column;
   justify-content: center;
   width: 165px;
-  margin: 16px;
-  height: 100vh;
+  margin: 32px;
+  position: fixed;
+  height: 100%;
 
   a {
     text-decoration: none;
@@ -42,5 +43,11 @@
     a:hover, a.active {
       color: $grey;
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navigation {
+    display: none;
   }
 }
