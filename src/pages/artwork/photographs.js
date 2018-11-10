@@ -18,7 +18,7 @@ export const PHOTOGRAPHS = [
 const Photographs = () => (
   <ArtworkLayout>
     {
-      PHOTOGRAPHS.map(photo => <ArtworkPiece image={photo} />)
+      PHOTOGRAPHS.map(photo => <ArtworkPiece key={photo.title} image={photo} />)
     }
   </ArtworkLayout>
 )

@@ -53,7 +53,7 @@ export const DRAWINGS = [
 const Drawings = () => (
   <ArtworkLayout>
     {
-      DRAWINGS.map(drawing => <ArtworkPiece image={drawing} />)
+      DRAWINGS.map(drawing => <ArtworkPiece key={drawing.title} image={drawing} />)
     }
   </ArtworkLayout>
 )
