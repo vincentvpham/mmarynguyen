@@ -11,6 +11,19 @@
     color: $grey;
   }
 
+  .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: $black;
+    margin-bottom: 32px;
+    padding: 0 6px;
+    color: $white;
+  }
+
   .routes {
     display: flex;
     flex-direction: column;
@@ -21,16 +34,7 @@
     text-transform: uppercase;
   }
 
-  .title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 900;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    background-color: $black;
-    margin-bottom: 8px;
-    padding: 0 6px;
-    color: $white;
+    .routes > a:not(:last-child) {
+    padding-bottom: 16px;
   }
 }
