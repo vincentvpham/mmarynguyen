@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Vincent Pham <vincentvpham@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.0-rc.11",
     "gatsby-plugin-manifest": "next",
@@ -13,6 +13,7 @@
     "lodash": "^4.17.10",
     "node-sass": "^4.9.3",
     "react": "^16.4.2",
+    "react-burger-menu": "^2.5.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
     "react-photo-gallery": "^6.2.1"
