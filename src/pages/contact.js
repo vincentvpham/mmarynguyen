@@ -22,7 +22,7 @@ const ContactPage = () => (
             INSTAGRAM
           </div>
           <div className='value'>
-            <a href='https://www.instagram.com/mmarynguyenn' target='_blank'>WWW.INSTAGRAM.COM/MMARYNGUYENN</a>
+            <a href='https://www.instagram.com/mmarynguyenn' target='_blank' rel="noopener noreferrer">WWW.INSTAGRAM.COM/MMARYNGUYENN</a>
           </div>
         </div>
         <div className='method'>
@@ -30,7 +30,7 @@ const ContactPage = () => (
             DEPOP
           </div>
           <div className='value'>
-            <a href='https://www.depop.com/mmarynguyen' target='_blank'>WWW.DEPOP.COM/MMARYNGUYEN</a>
+            <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.DEPOP.COM/MMARYNGUYEN</a>
           </div>
         </div>
         <div className='method'>
@@ -38,7 +38,7 @@ const ContactPage = () => (
             ETSY
           </div>
           <div className='value'>
-            <a href='https://www.etsy.com/people/mmarynguyen' target='_blank'>WWW.ETSY.COM/PEOPLE/MMARYNGUYEN</a>
+            <a href='https://www.etsy.com/people/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.ETSY.COM/PEOPLE/MMARYNGUYEN</a>
           </div>
         </div>
       </div>
