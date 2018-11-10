@@ -3,7 +3,7 @@
 .contact {
 
   .contact-methods {
-    max-width: 80%;
+    max-width: 600px;
 
     .platform, .value {
       color: $white;
@@ -30,11 +30,22 @@
     .method:not(:last-child) {
         padding-bottom: 32px;
     }
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
   }
 
   .currently {
     font-family: Courier New, Courier, monospace;
     font-size: 10px;
     padding: 64px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact .method {
+    flex-direction: column;
   }
 }
