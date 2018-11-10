@@ -47,6 +47,11 @@ h1 {
 }
 
 @media screen and (max-width: 900px) {
+  h1 {
+    font-size: 90px;
+    line-height: 65px;
+  }
+
   .layout {
     margin-top: 64px;
 
