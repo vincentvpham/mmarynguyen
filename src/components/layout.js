@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Navigation from '../components/Navigation/Navigation';
+import Navigation from '../components/Navigation/Navigation'
+import Burger from '../components/Navigation/Burger/Burger';
 
 import './layout.css'
 import './layout.scss'
@@ -30,6 +31,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
+        <Burger title={data.site.siteMetadata.title} />
         <Navigation title={data.site.siteMetadata.title} />
         <div className='main'>
           {children}
