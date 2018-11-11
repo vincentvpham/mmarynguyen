@@ -49,3 +49,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .contact .method {
+    font-size: 12px;
+  }
+}
