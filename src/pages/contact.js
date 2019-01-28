@@ -38,7 +38,7 @@ const ContactPage = () => (
             ETSY
           </div>
           <div className='value'>
-            <a href='https://www.etsy.com/people/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.ETSY.COM/PEOPLE/MMARYNGUYEN</a>
+            <a href='https://www.etsy.com/shop/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.ETSY.COM/SHOP/MMARYNGUYEN</a>
           </div>
         </div>
       </div>
