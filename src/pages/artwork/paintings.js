@@ -30,7 +30,7 @@ export const PAINTINGS = [
   },
   {
     src: sheWasGolden,
-    width: 4,
+    width: 3,
     height: 3,
     title: 'SHE WAS GOLDEN (2016) MIXED MEDIA: WATERCOLOR & GLITTER',
   },
