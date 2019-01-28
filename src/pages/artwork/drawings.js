@@ -33,19 +33,19 @@ export const DRAWINGS = [
   {
     src: untitled1,
     width: 3,
-    height: 4,
+    height: 3,
     title: 'UNTITLED (2017) BRUSH PEN'
   },
   {
     src: untitled4,
-    width: 4,
+    width: 3,
     height: 3,
     title: 'UNTITLED (2018) INK PEN'
   },
   {
     src: melbourne,
     width: 3,
-    height: 4,
+    height: 3,
     title: 'MELBOURNE (2018) INK PEN'
   },
 ]
