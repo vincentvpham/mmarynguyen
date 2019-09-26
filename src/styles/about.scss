@@ -1,12 +1,10 @@
 .about {
   font-family: Courier New, Courier, monospace;
+  text-align: center;
 
-  .banner {
-    height: 125px;
-
-    img {
-      object-position: bottom;
-    }
+  img {
+    max-height: 500px;
+    margin-block-end: 0;
   }
 
   h1 {
