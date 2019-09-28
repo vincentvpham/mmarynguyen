@@ -1,9 +1,9 @@
 .involvement {
-
   .content {
     text-align: center;
     font-size: 14px;
     font-family: Courier New, Courier, monospace;
+    text-transform: lowercase;
 
     ul {
       list-style: none;
@@ -15,10 +15,16 @@
 
         .where {
           font-weight: bold;
+          text-transform: uppercase;
         }
 
         .when {
           font-style: italic;
+          text-transform: capitalize;
+        }
+
+        .what {
+          text-transform: capitalize;
         }
       }
     }
