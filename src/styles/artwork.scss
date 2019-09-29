@@ -1,6 +1,10 @@
 .artwork {
-
-  .gallery img {
-    object-fit: cover;
+  .gallery {
+    img {
+      object-fit: cover;
+    }
+    .title {
+      text-transform: uppercase;
+    }
   }
 }
