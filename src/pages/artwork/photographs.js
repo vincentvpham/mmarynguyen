@@ -1,26 +1,19 @@
 import React from 'react'
 
-import ArtworkLayout from '../../layouts/Artwork/Artwork'
+import ArtworkCategory from '../../components/ArtworkCategory/ArtworkCategory'
 
-import ArtworkPiece from '../../components/ArtworkPiece/ArtworkPiece'
+import { getTitle } from '../../helpers/artwork'
 
-import inADream from '../../images/photographs/in-a-dream-2016.png'
+const req = require.context('../../images/photographs', false, /.*\.png|jpg$/)
 
-export const PHOTOGRAPHS = [
-  {
-    src: inADream,
-    width: 3,
-    height: 3,
-    title: 'IN A DREAM (2016) PHOTOGRAPH'
-  },
-]
+export const PHOTOGRAPHS = req.keys().map(key => ({
+  src: req(key),
+  width: 3,
+  height: 3,
+  title: getTitle(key),
+  key,
+}))
 
-const Photographs = () => (
-  <ArtworkLayout>
-    {
-      PHOTOGRAPHS.map(photo => <ArtworkPiece key={photo.title} image={photo} />)
-    }
-  </ArtworkLayout>
-)
+const Photographs = () => <ArtworkCategory images={PHOTOGRAPHS} />
 
 export default Photographs

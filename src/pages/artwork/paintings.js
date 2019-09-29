@@ -1,47 +1,19 @@
 import React from 'react'
 
-import ArtworkLayout from '../../layouts/Artwork/Artwork'
+import ArtworkCategory from '../../components/ArtworkCategory/ArtworkCategory'
 
-import ArtworkPiece from '../../components/ArtworkPiece/ArtworkPiece'
+import { getTitle } from '../../helpers/artwork'
 
-import iDontWantToBeFound from '../../images/paintings/i-dont-want-to-be-found-2016.png'
-import iLoveArt from '../../images/paintings/i-love-art-2016.png'
-import nextToYou from '../../images/paintings/next-to-you-2016.png'
-import sheWasGolden from '../../images/paintings/she-was-golden-2016.png'
+const req = require.context('../../images/paintings', false, /.*\.png|jpg$/)
 
-export const PAINTINGS = [
-  {
-    src: nextToYou,
-    width: 3,
-    height: 3,
-    title: 'NEXT TO YOU (2016) ACRYLIC & OIL'
-  },
-  {
-    src: iDontWantToBeFound,
-    width: 3,
-    height: 3,
-    title: 'I DON\'T WANT TO BE FOUND(2016) ACRYLIC & OIL'
-  },
-  {
-    src: iLoveArt,
-    width: 3,
-    height: 3,
-    title: 'I LOVE ART (2016) WATERCOLOR'
-  },
-  {
-    src: sheWasGolden,
-    width: 3,
-    height: 3,
-    title: 'SHE WAS GOLDEN (2016) MIXED MEDIA: WATERCOLOR & GLITTER',
-  },
-]
+export const PAINTINGS = req.keys().map(key => ({
+  src: req(key),
+  width: 3,
+  height: 3,
+  title: getTitle(key),
+  key,
+}))
 
-const Paintings = () => (
-  <ArtworkLayout>
-    {
-      PAINTINGS.map(painting => <ArtworkPiece key={painting.title} image={painting} />)
-    }
-  </ArtworkLayout>
-)
+const Paintings = () => <ArtworkCategory images={PAINTINGS} />
 
 export default Paintings

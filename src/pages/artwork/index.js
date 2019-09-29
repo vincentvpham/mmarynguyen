@@ -8,14 +8,11 @@ import Artwork from '../../layouts/Artwork/Artwork'
 import { DRAWINGS } from './drawings'
 import { PHOTOGRAPHS } from './photographs'
 import { PAINTINGS } from './paintings'
+import { COMMERCIAL } from './commercial'
 
 import '../../styles/artwork.scss'
 
-const PHOTO_SET = [
-  ...DRAWINGS,
-  ...PHOTOGRAPHS,
-  ...PAINTINGS,
-]
+const PHOTO_SET = [...DRAWINGS, ...PHOTOGRAPHS, ...PAINTINGS, ...COMMERCIAL]
 
 const ArtworkPage = () => (
   <Artwork>

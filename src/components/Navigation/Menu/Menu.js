@@ -6,30 +6,31 @@ import { Link } from 'gatsby'
 import './Menu.scss'
 
 const Menu = ({ title }) => {
-
   return (
-    <div className='menu'>
-      <Link to='/'>
-        <div className='title'>
-          {title}
-        </div>
+    <div className="menu">
+      <Link to="/">
+        <div className="title">{title}</div>
       </Link>
-      <div className='routes'>
-        <Link to='/about' activeClassName='active'>
+      <div className="routes">
+        <Link to="/about" activeClassName="active">
           About
-          </Link>
-        <Link to='/involvement' activeClassName='active'>
-          Involvement
-          </Link>
-        <Link to='/artwork' activeClassName='active'>
+        </Link>
+        <Link to="/cv" activeClassName="active">
+          CV
+        </Link>
+        <Link to="/artwork" activeClassName="active">
           Artwork
-          </Link>
-        <Link to='/contact' activeClassName='active'>
+        </Link>
+        <Link to="/contact" activeClassName="active">
           Contact
-          </Link>
-        <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">
+        </Link>
+        <a
+          href="https://www.depop.com/mmarynguyen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Shop
-          </a>
+        </a>
       </div>
     </div>
   )
