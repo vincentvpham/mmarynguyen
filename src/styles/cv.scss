@@ -1,9 +1,15 @@
 .involvement {
   .content {
-    text-align: center;
     font-size: 14px;
     font-family: Courier New, Courier, monospace;
     text-transform: lowercase;
+
+    .sub {
+      font-weight: bold;
+      text-decoration: underline;
+      text-transform: uppercase;
+      margin: 64px 0 32px;
+    }
 
     ul {
       list-style: none;

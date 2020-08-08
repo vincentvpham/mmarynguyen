@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Vincent Pham <vincentvpham@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.0-rc.11",
+    "gatsby": "^2.24.36",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "^2.0.0-rc.3",
     "gatsby-plugin-react-helmet": "next",
@@ -29,7 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^2.0.5"
   },
   "repository": {
     "type": "git",
