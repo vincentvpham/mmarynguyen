@@ -2,25 +2,15 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-import aboutImage from '../images/about.png'
-
 import '../styles/about.scss'
 
 const AboutPage = () => (
   <Layout>
     <div className="about">
-      <img src={aboutImage} alt="about mary nguyen" />
       <div>
         <h1>About Mary</h1>
         <div className="description">
-          Born and raised in Wichita, KS, Mary Nguyen is a student, artist and
-          entrepreneur. She is currently attending the University of
-          Missouri-Kansas City where she is earning her Bachelor of Science in
-          Biology and minoring in Chemistry and Psychology. She is the founder
-          of Out of Line Apparel which features her artwork on clothing, prints
-          and stickers. Intrigued by human behavior, motivation and the
-          biological aspects of psychology, she hopes to continue her education
-          by attending graduate school.
+          Born and raised in Wichita, KS, Mary Nguyen is a student, artist and entrepreneur. She graduated from the University of Missouri-Kansas City where she earned her Bachelor of Science in Biology and minors in Chemistry and Psychology. She is the founder of Out of Line Apparel which features her artwork on clothing, prints and stickers. Intrigued by art and neurology she hopes to bridge her two passions by attending graduate school.
         </div>
       </div>
     </div>

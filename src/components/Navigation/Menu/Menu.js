@@ -24,13 +24,6 @@ const Menu = ({ title }) => {
         <Link to="/contact" activeClassName="active">
           Contact
         </Link>
-        <a
-          href="https://www.depop.com/mmarynguyen"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Shop
-        </a>
       </div>
     </div>
   )
