@@ -33,6 +33,9 @@ const Artwork = ({ children }) => {
             <Link to="/artwork/graphic-design" activeClassName="active">
               Graphic Design
             </Link>
+            <Link to="/artwork/murals" activeClassName="active">
+              Murals
+            </Link>
           </div>
         </div>
         <div className="gallery">{children}</div>
