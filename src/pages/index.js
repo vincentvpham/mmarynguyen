@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div className='home'>
       <Banner
         image={homeBannerImage}
-        title='Student, Artist & Entrepreneur'
+        title='Artist & Entrepreneur'
       />
     </div>
   </Layout>

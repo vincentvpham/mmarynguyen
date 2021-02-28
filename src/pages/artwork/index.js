@@ -10,10 +10,12 @@ import { PHOTOGRAPHS } from './photographs'
 import { PAINTINGS } from './paintings'
 import { COMMERCIAL } from './commercial'
 import { DIGITAL_ART } from './digital-art'
+import { GRAPHIC_DESIGN } from './graphic-design'
+import { MURALS } from './murals'
 
 import '../../styles/artwork.scss'
 
-const PHOTO_SET = [...DRAWINGS, ...PHOTOGRAPHS, ...PAINTINGS, ...COMMERCIAL, ...DIGITAL_ART]
+const PHOTO_SET = [...DRAWINGS, ...PHOTOGRAPHS, ...PAINTINGS, ...COMMERCIAL, ...DIGITAL_ART, ...GRAPHIC_DESIGN, ...MURALS]
 
 const ArtworkPage = () => (
   <Artwork>

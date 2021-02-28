@@ -28,7 +28,13 @@ const Artwork = ({ children }) => {
               Commercial Work
             </Link>
             <Link to="/artwork/digital-art" activeClassName="active">
-              Digital Art
+              Digital
+            </Link>
+            <Link to="/artwork/graphic-design" activeClassName="active">
+              Graphic Design
+            </Link>
+            <Link to="/artwork/murals" activeClassName="active">
+              Murals
             </Link>
           </div>
         </div>
