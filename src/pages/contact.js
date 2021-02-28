@@ -6,55 +6,76 @@ import '../styles/contact.scss';
 
 const ContactPage = () => (
   <Layout>
-    <div className='contact'>
+    <div className="contact">
       <h1>Contact</h1>
-      <div className='contact-methods'>
-        <div className='method'>
-          <div className='platform'>
-            E-MAIL
-          </div>
-          <div className='value'>
-            MARYNGUYEN@REBORN.COM
+      <div className="contact-methods">
+        <div className="method">
+          <div className="platform">E-MAIL</div>
+          <div className="value">MARYNGUYEN@REBORN.COM</div>
+        </div>
+        <div className="method">
+          <div className="platform">INSTAGRAM</div>
+          <div className="value">
+            <a
+              href="https://www.instagram.com/mmarynguyenn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WWW.INSTAGRAM.COM/MMARYNGUYENN
+            </a>
           </div>
         </div>
-        <div className='method'>
-          <div className='platform'>
-            INSTAGRAM
-          </div>
-          <div className='value'>
-            <a href='https://www.instagram.com/mmarynguyenn' target='_blank' rel="noopener noreferrer">WWW.INSTAGRAM.COM/MMARYNGUYENN</a>
-          </div>
-        </div>
-        <div className='method'>
-          <div className='platform'>
-            DEPOP
-          </div>
-          <div className='value'>
-            <a href='https://www.depop.com/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.DEPOP.COM/MMARYNGUYEN</a>
+        <div className="method">
+          <div className="platform">DEPOP</div>
+          <div className="value">
+            <a
+              href="https://www.depop.com/mmarynguyen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WWW.DEPOP.COM/MMARYNGUYEN
+            </a>
           </div>
         </div>
-        <div className='method'>
-          <div className='platform'>
-            ETSY
+        <div className="method">
+          <div className="platform">ETSY</div>
+          <div className="value">
+            <a
+              href="https://www.etsy.com/shop/mmarynguyen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WWW.ETSY.COM/SHOP/MMARYNGUYEN
+            </a>
           </div>
-          <div className='value'>
-            <a href='https://www.etsy.com/shop/mmarynguyen' target='_blank' rel="noopener noreferrer">WWW.ETSY.COM/SHOP/MMARYNGUYEN</a>
+        </div>
+        <div className="method">
+          <div className="platform">CLOTHING BRAND</div>
+          <div className="value">
+            <a
+              href="https://www.outoflineapparel.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WWW.OUTOFLINEAPPAREL.COM
+            </a>
           </div>
         </div>
       </div>
 
-      <div className='currently'>
+      <div className="currently">
         Mary is currently residing in Kansas City, MO.
       </div>
 
-      <div className='map'>
+      <div className="map">
         <iframe
-          title='currently'
-          width='100%'
-          height='300'
-          frameBorder='0'
-          src='//www.google.com/maps/embed/v1/place?key=AIzaSyBadiCPcXU36skJ3jMufYRFcvV7vQzIgUc&q=Kansas+City+MO'
-          allowFullScreen />
+          title="currently"
+          width="100%"
+          height="300"
+          frameBorder="0"
+          src="//www.google.com/maps/embed/v1/place?key=AIzaSyBadiCPcXU36skJ3jMufYRFcvV7vQzIgUc&q=Kansas+City+MO"
+          allowFullScreen
+        />
       </div>
     </div>
   </Layout>
