@@ -30,6 +30,9 @@ const Artwork = ({ children }) => {
             <Link to="/artwork/digital-art" activeClassName="active">
               Digital Art
             </Link>
+            <Link to="/artwork/graphic-design" activeClassName="active">
+              Graphic Design
+            </Link>
           </div>
         </div>
         <div className="gallery">{children}</div>
