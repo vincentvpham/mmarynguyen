@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { Link, navigateTo } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 
 import Layout from '../../components/layout'
 
 import './Artwork.scss'
 
 const Artwork = ({ children }) => {
-  const _goToArtworkIndex = () => navigateTo('/artwork')
+  const _goToArtworkIndex = () => navigate('/artwork')
 
   return (
     <Layout>
