@@ -5,6 +5,7 @@ html, body {
   flex: 1;
   color: $black;
   font-family: Courier New, Courier, monospace;
+  height: 100%;
 }
 
 #___gatsby {
@@ -36,7 +37,7 @@ h1 {
   .main {
     padding: 32px;
     flex: 1;
-    margin-left: calc(165px + 32px);
+    overflow: scroll;
   }
 
   .content {

@@ -1,6 +1,9 @@
 @import '../../../styles/colors.scss';
 
 .menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 
   a {
     text-decoration: none;
@@ -9,6 +12,12 @@
 
   a:hover, a.active {
     color: $grey;
+  }
+  .body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .title {
@@ -23,6 +32,7 @@
     color: $white;
   }
 
+
   .routes {
     display: flex;
     flex-direction: column;
@@ -35,5 +45,24 @@
 
   .routes > a:not(:last-child) {
     padding-bottom: 16px;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+
+  .footer {
+    justify-self: flex-end;
+    margin-bottom: 16px;
+  }
+
+  .social-media {
+    margin-right: 12px;
+    height: 24px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    text-transform: uppercase;
   }
 }
