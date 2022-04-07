@@ -1,20 +1,18 @@
 .about {
   font-family: Courier New, Courier, monospace;
-  text-align: center;
   display: flex;
   justify-content: center;
 
-  img {
-    max-height: 500px;
-    margin-block-end: 0;
+  img.mary {
+    float: right;
+    height: 250px;
   }
 
   h1 {
     font-family: Courier New, Courier, monospace;
     text-transform: uppercase;
-    text-align: center;
-    margin: 48px 0 32px;
-    font-weight: 300;
+    margin: 16px 0 32px;
+    font-weight: bold;
     font-size: 24px;
   }
 
@@ -22,5 +20,6 @@
     line-height: 32px;
     font-size: 14px;
     max-width: 800px;
+    margin-bottom: 32px;
   }
 }
