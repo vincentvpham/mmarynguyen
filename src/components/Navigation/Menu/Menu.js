@@ -10,7 +10,8 @@ import {
 
 import { Link } from 'gatsby';
 
-import logo from './mn.png';
+import resume from './Nguyen_Resume.pdf';
+import Logo from './Logo';
 
 import './Menu.scss';
 
@@ -18,21 +19,27 @@ const Menu = ({ title }) => {
   return (
     <div className="menu">
       <div className="body">
-        <img src={logo} alt="mary nguyen logo" />
+        <Logo />
         <Link to="/">
           <div className="title">{title}</div>
         </Link>
-
         <div className="routes">
+          <Link to="/" activeClassName="active">
+            Home
+          </Link>
           <Link to="/about" activeClassName="active">
             About
           </Link>
-          <Link to="/cv" activeClassName="active">
-            CV
-          </Link>
-          <Link to="/artwork" activeClassName="active">
-            Artwork
-          </Link>
+          <a href={resume} target="_blank" rel="noreferrer">
+            Resume
+          </a>
+          <a
+            href="https://vimeo.com/mmarynguyen"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Animations
+          </a>
           <Link to="/contact" activeClassName="active">
             Contact
           </Link>
@@ -40,10 +47,34 @@ const Menu = ({ title }) => {
       </div>
       <div className="footer">
         <div>
-          <FontAwesomeIcon className="social-media" icon={faLinkedinIn} />
-          <FontAwesomeIcon className="social-media" icon={faInstagram} />
-          <FontAwesomeIcon className="social-media" icon={faFacebookF} />
-          <FontAwesomeIcon className="social-media" icon={faTiktok} />
+          <a
+            href="https://www.linkedin.com/in/mmarynguyen"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="social-media" icon={faLinkedinIn} />
+          </a>
+          <a
+            href="https://www.instagram.com/mmarynguyenn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="social-media" icon={faInstagram} />
+          </a>
+          <a
+            href="https://www.facebook.com/mmarynguyenn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="social-media" icon={faFacebookF} />
+          </a>
+          <a
+            href="https://www.tiktok.com/@mmarynguyenn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon className="social-media" icon={faTiktok} />
+          </a>
         </div>
         <div className="copyright">
           &copy; copyright {new Date().getFullYear()}, mary nguyen
