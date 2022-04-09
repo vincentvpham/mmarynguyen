@@ -19,10 +19,15 @@ const Menu = ({ title }) => {
   return (
     <div className="menu">
       <div className="body">
-        <Logo />
-        <Link to="/">
-          <div className="title">{title}</div>
-        </Link>
+        <div className="header">
+          <Logo />
+          <Link to="/">
+            <div className="title">
+              <span className="title-start">| </span>
+              {title}
+            </div>
+          </Link>
+        </div>
         <div className="routes">
           <Link to="/" activeClassName="active">
             Home
