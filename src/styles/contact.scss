@@ -1,57 +1,50 @@
 @import './colors.scss';
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 800px;
 
-  .contact-methods {
-    max-width: 600px;
+  h1 {
+    margin-bottom: 0;
+  }
 
-    .platform, .value {
-      color: $white;
-      background-color: $black;
-      padding: 0 6px;
+  .email {
+    color: $black;
+    align-items: center;
+    display: flex;
+    margin: 32px 0;
+    text-decoration: none;
+
+    svg {
+      margin-right: 12px;
     }
+  }
 
-    .platform {
-      font-family: Maven Pro;
-      font-weight: 900;
-    }
-
-    .value {
-      font-family: Courier New, Courier, monospace;
-      letter-spacing: 1px;
-    }
-
-    .method {
+    .contact-form {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      flex-direction: column;
+
+      label {
+        &:first-child {
+          margin-top: 0;
+        }
+
+        margin: 16px 0 8px;
+      }
+
+      input, textarea {
+        border: none;
+        background-color: #e6e4e4;
+      }
+
+      button {
+        margin: 16px 0 32px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
-
-    .method:not(:last-child) {
-        padding-bottom: 32px;
-    }
-
-    a {
-      text-decoration: none;
-      color: $white;
-    }
   }
-
-  .currently {
-    font-family: Courier New, Courier, monospace;
-    font-size: 10px;
-    padding: 64px 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .contact .method {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .contact .method {
-    font-size: 12px;
-  }
-}
