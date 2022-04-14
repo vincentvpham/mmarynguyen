@@ -35,15 +35,15 @@ const Menu = ({ title }) => {
           <Link to="/about" activeClassName="active">
             About
           </Link>
-          <a href={resume} target="_blank" rel="noreferrer">
-            Resume
-          </a>
           <a
             href="https://vimeo.com/mmarynguyen"
             target="_blank"
             rel="noreferrer"
           >
             Animations
+          </a>
+          <a href={resume} target="_blank" rel="noreferrer">
+            Resume
           </a>
           <Link to="/contact" activeClassName="active">
             Contact

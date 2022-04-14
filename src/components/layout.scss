@@ -36,10 +36,10 @@ h1 {
   flex-direction: row;
 
   .main {
-    padding: 32px;
-    flex: 1;
-    overflow: scroll;
     display: flex;
+    flex: 1;
+    margin: 32px;
+    overflow: scroll;
   }
 
   .content {
@@ -55,9 +55,5 @@ h1 {
 
   .layout {
     margin-top: 64px;
-
-    .main {
-      margin-left: 0;
-    }
   }
 }
