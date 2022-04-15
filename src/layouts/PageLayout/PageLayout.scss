@@ -1,0 +1,87 @@
+@import '../../styles/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body {
+  display: flex;
+  flex: 1;
+  color: $black;
+  font-family: Courier New, Courier, monospace;
+  height: 100%;
+}
+
+#___gatsby {
+  display: flex;
+  flex: 1;
+}
+
+#___gatsby > * {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+
+  .main {
+    display: flex;
+    flex: 1;
+    margin: 32px;
+    overflow: scroll;
+  }
+
+  .content {
+    margin: 16px;
+  }
+
+  .mobile-header {
+    display: none;
+    text-align: right;
+    padding: 36px 36px 0 0;
+    height: 64px;
+
+    .header {
+      font-family: 'Arial';
+      font-weight: bold;
+      letter-spacing: -1px;
+      font-size: 22px;
+      text-transform: uppercase;
+      line-height: 16px;
+    }
+
+    .sub-header {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 20px;
+      color: #b8b7ad;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 85px;
+    line-height: 65px;
+  }
+
+  .layout {
+    flex-direction: column;
+
+    .mobile-header {
+      display: block;
+    }
+  }
+}
