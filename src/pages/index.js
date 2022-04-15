@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import Gallery from 'react-photo-gallery';
 
@@ -102,6 +102,17 @@ const PHOTO_SET = [
 const HomePage = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  // prevent right clicking
+  useEffect(() => {
+    const handleContextmenu = (e) => {
+      e.preventDefault();
+    };
+    document.addEventListener('contextmenu', handleContextmenu);
+    return () => {
+      document.removeEventListener('contextmenu', handleContextmenu);
+    };
+  }, []);
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
