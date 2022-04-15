@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Layout from '../components/layout';
+import PageLayout from '../layouts/PageLayout/PageLayout';
 
 import aboutPicture from './about.png';
 
 import '../styles/about.scss';
 
 const AboutPage = () => (
-  <Layout>
+  <PageLayout>
     <div className="about">
       <img className="mary" src={aboutPicture} alt="about mary" />
       <h1>About</h1>
@@ -37,7 +37,7 @@ const AboutPage = () => (
         expanding my work to AR/VR technology.
       </div>
     </div>
-  </Layout>
+  </PageLayout>
 );
 
 export default AboutPage;

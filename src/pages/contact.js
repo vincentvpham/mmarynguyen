@@ -2,12 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-import Layout from '../components/layout';
+import PageLayout from '../layouts/PageLayout/PageLayout';
 
 import '../styles/contact.scss';
 
 const ContactPage = () => (
-  <Layout>
+  <PageLayout>
     <div className="contact">
       <h1>Contact</h1>
       <div>Let's get in touch.</div>
@@ -26,16 +26,16 @@ const ContactPage = () => (
         action="https://formsubmit.co/marynguyen@reborn.com"
         method="POST"
       >
-        <label>Name*</label>
+        <label htmlFor="name">Name*</label>
         <input type="text" name="name" required />
-        <label>Email Address*</label>
+        <label htmlFor="email">Email Address*</label>
         <input type="email" name="email" required />
-        <label>Message*</label>
+        <label htmlFor="message">Message*</label>
         <textarea name="message" rows="10" maxlength="5000" required></textarea>
         <button>Submit</button>
       </form>
     </div>
-  </Layout>
+  </PageLayout>
 );
 
 export default ContactPage;
