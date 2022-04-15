@@ -33,7 +33,6 @@ h1 {
 .layout {
   display: flex;
   flex: 1;
-  flex-direction: row;
 
   .main {
     display: flex;
@@ -45,6 +44,31 @@ h1 {
   .content {
     margin: 16px;
   }
+
+  .mobile-header {
+    display: none;
+    text-align: right;
+    padding: 36px 36px 0 0;
+    height: 64px;
+
+    .header {
+      font-family: 'Arial';
+      font-weight: bold;
+      letter-spacing: -1px;
+      font-size: 22px;
+      text-transform: uppercase;
+      line-height: 16px;
+    }
+
+    .sub-header {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 20px;
+      color: #b8b7ad;
+      letter-spacing: 0.5px;
+    }
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -54,6 +78,10 @@ h1 {
   }
 
   .layout {
-    margin-top: 64px;
+    flex-direction: column;
+
+    .mobile-header {
+      display: block;
+    }
   }
 }

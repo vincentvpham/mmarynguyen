@@ -1,12 +1,7 @@
 @import '../../../styles/colors.scss';
 
 .burger {
-
   display: none;
-
-  & > div {
-    margin-top: -64px;
-  }
 
   a, svg.logo {
     color: $white;

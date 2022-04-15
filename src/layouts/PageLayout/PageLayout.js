@@ -32,6 +32,12 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Burger title={data.site.siteMetadata.title} />
+        <div className="mobile-header">
+          <div className="header">Mary Nguyen</div>
+          <div className="sub-header">
+            Medical illustrator, Animator & Designer
+          </div>
+        </div>
         <Navigation title={data.site.siteMetadata.title} />
         <div className="main">{children}</div>
       </div>
